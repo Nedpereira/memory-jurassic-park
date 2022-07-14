@@ -31,7 +31,7 @@ const checkEnd = () => {
     { 
         clearInterval(this.loop);
         alert(`Parabéns, ${spanPlayer.innerHTML} ! Seu tempo foi: ${timer.innerHTML}`);
-        window.location = '../page/index.html';
+        window.location = '../index.html';
     }
 }
 const checkCards = () => {
