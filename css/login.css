@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
 
 .login-header img{
     width: 120px;
@@ -13,7 +14,7 @@
 }
 
 .login-header h1{
-    font-size: 1em;
+    font-size: 0.9rem;
     color: #292928;
 }
 
@@ -59,4 +60,28 @@ p{
     font-family: 'Courier New', Courier, monospace;
 }
 
+.low{
+    display: flex;
+    margin: 50px auto;  
+    align-items: center;  
+}
+
+.creator{
+    font-size: 0.9rem;
+    font-weight: 300;
+    margin: 0 0 0 10px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.my-name{
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin: 0 0 0 3px;
+    font-family: 'Outfit', sans-serif;
+}
+.my{
+    width: 25px;
+    border: 1px solid rgb(52, 50, 2);
+    border-radius:180px;
+}
 
